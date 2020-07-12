@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.initechNode {
+  border: solid 1px rgb(206, 201, 201);
+  border-radius: 3px;
+  padding: 5px;
+  width: 250px;
+  display: inline-block;
+}
+.initechNode img{
+  width: 80px;
+  border-radius: 50%;
+}
+
+#initechOrgChart .orgNodeChildGroup .nodeGroupLineVerticalMiddle {
+  border-right: solid 1px rgb(206, 201, 201);
+}
+
+#initechOrgChart .nodeLineBorderTop {
+  border-top: solid 1px rgb(206, 201, 201);
+}
